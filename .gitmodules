@@ -1,0 +1,3 @@
+[submodule "web3.js"]
+	path = web3.js
+	url = https://github.com/sumpixel/web3.js.git
