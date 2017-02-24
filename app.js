@@ -1,13 +1,15 @@
 import Promise from 'bluebird';
-import Web3 from './web3.js/index'
+import Web3 from './web3'
 import net from 'net';
 const web3 = new Web3();
 
+// const websocketPath = 'ws://192.168.100.93:8546';
 const websocketPath = 'ws://localhost:8546';
-const wei = 0.005;
+const wei = 0.0001;
 const from = '0x97e5fe0559f80a83df67578d1f00c6afc9c66bf4';
 const fromPassword = 'sumling';
-const to = '0x1D548De4048fd22baAe01b7f614469f6412AD3ED';
+const to = '0xb3853931c98cc5925bec4a39fb7c336e7b990869';
+// const to = '0x1D548De4048fd22baAe01b7f614469f6412AD3ED';
 
 // WebSocket connection
 const connectionProvider = new web3.providers.WebsocketProvider(websocketPath);
