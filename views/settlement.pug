@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title="Settlement"
+  body
+    h1 Settlement
+    form(method='POST' action='')
+      div
+        label(for="id") id:
+        input#id(type="text" name="id" size="40")
+      div
+        label(for="role") role:
+        input#role(type="text" name="role" size="20" value="cp")
+      div
+        label(for="stime") stime:
+        input#stime(type="text" name="stime" size="20" value="123")
+      div
+        label(for="estime") estime:
+        input#estime(type="text" name="estime" size="20" value="456")
+      div
+        label(for="accountAddress") accountAddress:
+        input#accountAddress(type="text" name="accountAddress" size="40" value="rahPuUm7bHAheHJZLKYddSvVc8hyV6Ksc8")
+      div
+        button(type="submit") Settle!
+    br
+    a(href="../") [back to main]
