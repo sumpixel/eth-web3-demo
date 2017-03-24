@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "postinstall": "node_modules/.bin/lerna bootstrap",
-    "start": "./node_modules/.bin/babel-node btc.js",
-    "server": "./node_modules/.bin/babel-node server.js",
+    "start": "./node_modules/.bin/babel-node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
